@@ -1,0 +1,18 @@
+#include <stdio.h> 
+
+int main(){
+int a,b;
+printf("Enter the a Value:");
+scanf("%d %d",&a,&b);
+a+=b;
+printf ("ADD%d\n",a);
+a-=b;
+printf ("SUB%d\n",a);
+a*=b;
+printf ("MUT%d\n",a);
+a/=b;
+printf ("DIV%d\n",a);
+a%=b;
+printf ("MOD%d\n",a);
+    return 0;
+}
