@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+  int a;
+  printf("Enter tha a number:\n");
+  scanf("\n%d",&a);
+  printf("%d",a);
+  float f;
+  printf("\nEnter tha a height:");
+  scanf("\n%f",&f);
+  printf("%.2f",f);
+  char s;
+  scanf("\n%c",&s);
+    printf("%c",s);
+  char name[30];
+  scanf("\n%s",&name);
+  printf("%s",name);
+
+    return 0;
+}
