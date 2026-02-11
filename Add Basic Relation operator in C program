@@ -1,0 +1,15 @@
+#include <stdio.h> 
+
+int main(){
+int a,b;
+printf ("Enter the a Value:");
+scanf("%d %d",&a,&b);
+printf("Equ%d\n",a==b);
+printf("Unequ%d\n",a!=b);
+printf("Less%d\n",a<b);
+printf("Greater%d\n",a>b);
+printf("Lessequ%d\n",a<=b);
+printf("Greaterequ%d\n",a>=b);
+
+    return 0;
+}
