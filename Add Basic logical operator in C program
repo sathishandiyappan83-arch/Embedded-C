@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+int a,b;
+printf("Enter a Value:");
+scanf("%d",&a);
+printf("Enter a Value:");
+scanf("%d",&b);
+printf("AND %d\n",a!=b&&a>b);
+printf("OR %d\n",a==b||a>b);
+printf("NOT %d\n",!(a==b));
+    return 0;
+}
