@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+ int main(){
+ int a,b;
+ printf("Enter a Value:");
+ scanf("%d",&a);
+ printf("Enter b Value:");
+ scanf("%d",&b);
+ printf("AND %d\n",a&b);
+ printf("OR %d\n",a|b);
+ printf("EXOR%d\n",a^b);
+ printf("NOT a%d\n",~a);
+ printf("NOT b%d\n",~b);
+ printf("R shift a%d\n",a>>2);
+ printf("R shift b%d\n",b>>2);
+ printf("L shift a%d\n",a<<2);
+ printf("L shift b%d\n",b<<2);
+ 
+    return 0;
+}
